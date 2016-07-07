@@ -7,6 +7,7 @@ Just start coding !
 # How
 
 ```javascript
+npm install --no-optional
 npm run test:watch
 ```
 
