@@ -4,7 +4,7 @@
   "description": "Small starter to play with ES6 and make some tests",
   "main": "src/index.js",
   "scripts": {
-    "test:watch": "watch-run -i -p 'src/**/*' npm run test",
+    "test:watch": "watch-run -i -p \"src/**/*\" npm run test",
     "test": "npm run compile && mocha --colors lib/*.spec.js lib/**/*.spec.js",
     "compile": "rimraf ./lib/**/* && babel src -d lib"
   },
