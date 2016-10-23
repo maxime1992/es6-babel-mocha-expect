@@ -4,7 +4,7 @@
   "description": "Small starter to play with ES6 and make some tests",
   "main": "src/index.js",
   "scripts": {
-    "test:watch": "watch-run -i -p 'src/**/*' npm run test",
+    "test:watch": "watch-run -i -p \"src/**/*\" npm run test",
     "test": "npm run compile && mocha --colors lib/*.spec.js lib/**/*.spec.js",
     "compile": "rimraf ./lib/**/* && babel src -d lib"
   },
@@ -16,6 +16,7 @@
     "babel-preset-es2015": "6.9.0",
     "expect": "1.20.1",
     "rimraf": "2.5.2",
+    "mocha": "2.3.3",
     "watch-run": "1.2.4"
   }
 }
